@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-50 antialiased overflow-hidden selection:bg-cyan-500/30;
+  }
+}
+
+.theme-terminal {
+  --color-zinc-50: #00ff00;
+  --color-zinc-200: #00ff00;
+  --color-zinc-300: #00dd00;
+  --color-zinc-400: #00bb00;
+  --color-zinc-500: #008800;
+  --color-zinc-700: #004400;
+  --color-zinc-800: #003300;
+  --color-zinc-900: #001100;
+  --color-zinc-950: #000500;
+  
+  --color-cyan-400: #00ff00;
+  --color-cyan-500: #00cc00;
+  --color-cyan-600: #00aa00;
+  --color-cyan-900: #003300;
+  --color-cyan-950: #001100;
+
+  --color-emerald-400: #00ff00;
+  --color-emerald-500: #00cc00;
+  --color-emerald-900: #003300;
+  --color-emerald-950: #001100;
+
+  --color-purple-400: #00ff00;
+  --color-purple-500: #00cc00;
+  --color-purple-900: #003300;
+  --color-purple-950: #001100;
+
+  --color-amber-400: #00ff00;
+  
+  --color-white: #00ff00;
+  --color-black: #000000;
+
+  --font-sans: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
