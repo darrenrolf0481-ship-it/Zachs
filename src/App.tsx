@@ -15,6 +15,8 @@ export default function App() {
     isConnected: false,
     activePersonas: [],
     isStreaming: false,
+    connectionType: "simulated",
+    apiKey: "",
   });
   const [theme, setTheme] = useState<"default" | "terminal">("default");
 
@@ -46,7 +48,7 @@ export default function App() {
           <div className="h-full w-full relative z-10">
             {activeTab === "connect" && <ConnectTab state={state} setState={setState} />}
             {activeTab === "viz" && <VizDashboard isConnected={state.isConnected} />}
-            {activeTab === "chat" && <ChatInterface isConnected={state.isConnected} activePersonas={state.activePersonas} />}
+            {activeTab === "chat" && <ChatInterface state={state} />}
             {activeTab === "personas" && <PersonasTab state={state} setState={setState} />}
           </div>
         </div>

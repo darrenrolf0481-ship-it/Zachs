@@ -10,6 +10,8 @@ export type AppState = {
   isConnected: boolean;
   activePersonas: Persona[];
   isStreaming: boolean;
+  connectionType: "ollama" | "lm-studio" | "gemini" | "simulated";
+  apiKey?: string;
 };
 
 export type Message = {
@@ -18,6 +20,7 @@ export type Message = {
   content: string;
   timestamp: Date;
   personaId?: string;
+  modelName?: string;
 };
 
 export type SystemStats = {
