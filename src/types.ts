@@ -16,7 +16,7 @@ export type AppState = {
 
 export type Message = {
   id: string;
-  role: "user" | "assistant" | "system";
+  role: 'user' | 'assistant' | 'system';
   content: string;
   timestamp: Date;
   personaId?: string;

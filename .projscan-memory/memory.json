@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "lastUpdatedAt": "2026-06-12T22:43:01.441Z",
+  "rules": {
+    "hardcoded-secret": {
+      "ruleId": "hardcoded-secret",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "missing-eslint": {
+      "ruleId": "missing-eslint",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "missing-prettier": {
+      "ruleId": "missing-prettier",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "missing-test-framework": {
+      "ruleId": "missing-test-framework",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "unused-dependency-@google/genai": {
+      "ruleId": "unused-dependency-@google/genai",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "unused-dependency-dotenv": {
+      "ruleId": "unused-dependency-dotenv",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "unused-dependency-express": {
+      "ruleId": "unused-dependency-express",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "missing-editorconfig": {
+      "ruleId": "missing-editorconfig",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "unused-dependency-autoprefixer": {
+      "ruleId": "unused-dependency-autoprefixer",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    },
+    "unused-dependency-tailwindcss": {
+      "ruleId": "unused-dependency-tailwindcss",
+      "firstSeenAt": "2026-06-12T22:43:01.440Z",
+      "lastSeenAt": "2026-06-12T22:43:01.440Z",
+      "runCount": 1,
+      "fixedCount": 0,
+      "suppressedInConfig": false
+    }
+  },
+  "hotspots": {},
+  "totalRuns": 1
+}
